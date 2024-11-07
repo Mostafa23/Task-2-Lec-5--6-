@@ -23,7 +23,7 @@ GeocodingAPI(country, (error, locationData) => {
 
                 console.log(`\n\t- Weather: ${weatherData.weather}`);
                 console.log(`\t- Temperature: ${weatherData.temp}°C`);
-                console.log(`\n\t- Last Updated: : ${weatherData.last}\n\n`);
+                console.log(`\n\t- Last Updated: ${weatherData.last}\n\n`);
                 // console.log(weatherData.res);
             }
         });
